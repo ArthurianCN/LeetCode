@@ -13,7 +13,7 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        int nBegin = -1, nEnd = 0, nLength = 0;
+        int nBegin = -1, nEnd = -1, nLength = 0;
         for(int i = 0; s[i]; ++i)
         {
             // 当前位置是字母，下一个位置是空格或者结束符，那就是结尾
